@@ -1,0 +1,23 @@
+@media screen and (max-width: 435px) {
+  
+  .nav1{
+    display: block;
+    .box{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    img{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    width: fit-content;
+  }
+  .nav2{
+    display: block;
+    .box{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

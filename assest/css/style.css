@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav{
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.301);
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    .cent{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        .head{
+            color: white;
+            font-size: 30px;
+        }
+    }
+    .logo{
+        img{
+            border-radius: 50%;
+        }
+    }
+   
+}
+.nav1{
+    display: flex;
+    .box{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border: 1px solid rgba(0, 0, 0, 0.301);
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.219);
+        width: 300px;
+        height: 310px;
+        margin-top: 40px;
+        margin-left: 130px;
+        text-align: center;
+        h5{
+            margin-right: auto;
+            padding: 5px;
+            font-size: 20px
+        } 
+        p{
+            margin-left: -70px;
+        }
+    }
+    img{
+        width: 700px;
+        border-radius: 5px;
+        margin-top: 40px;
+        margin-left: 80px;
+        
+    }
+    .input{
+        display: flex;
+        padding: 5px;
+        button{
+            background-color: red;
+            color: white;
+            border-radius: 20px;
+            border: none;
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 2px;
+            width: 140px;
+        }
+        .input1{
+            button{
+                background-color: white;
+                color: red;
+                margin-left: 5px;
+                border: 1.5px solid red;
+            }
+        }
+    }
+    input{
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.342);
+        width: 90%;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .button{
+        button{
+            background-color: red;
+            color: white;
+            border-radius: 20px;
+            border: none;
+            margin-top: 10px;
+            margin-left: 200px;
+            padding: 5px;
+            width: 90px;
+        }
+    }
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.nav2{
+    .box{
+        background-color: white;
+        color: black;
+        border: 1px solid rgba(0, 0, 0, 0.301);
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.219);
+        width: 400px;
+        height: 600px;
+        margin-top: 50px;
+        margin-left: 130px;
+        p{
+            padding: 10px;
+            i{
+                font-size: 25px;
+            }
+            span{
+                margin-left: 10px;
+                font-size: 20px;
+                color: rgba(0, 0, 0, 0.459);
+            }
+            
+        }
+        .image{
+            display: flex;
+            i{
+                font-size: 25px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            p{
+                font-size: 20px;
+                color: rgba(0, 0, 0, 0.459);
+            }
+        }
+        .logo{
+            i{
+                background-color: rgb(52, 98, 250);
+                border-radius: 50%;
+                margin-right: 20px;
+                margin-top: 30px;
+                margin-left: 30px;
+            }
+        }
+        .image2{
+            display: flex;
+            i{
+                font-size: 25px;
+                padding: 10px;
+            }
+            p{
+                font-size: 20px;
+                color: rgba(0, 0, 0, 0.459);
+                margin-left: -5px;
+            }
+        }
+        .image3{
+            display: flex;
+            i{
+                font-size: 25px;
+                padding: 10px;
+                margin-left: 5px;
+                padding-top: 20px;
+            }
+            p{
+                font-size: 20px;
+                color: rgba(0, 0, 0, 0.459);
+            }
+        }
+        .image4{
+            display: flex;
+            i{
+                font-size: 25px;
+                padding: 10px;
+            }
+            p{
+                font-size: 20px;
+                color: rgba(0, 0, 0, 0.459);
+                margin-left: -10px;
+            }
+        }
+        .image5{
+            display: flex;
+            i{
+                font-size: 25px;
+                padding: 10px;
+            }
+            p{
+                font-size: 20px;
+                color: rgba(0, 0, 0, 0.459);
+                margin-left: -10px; 
+            }
+        }
+        .image6{
+            display: flex;
+            i{
+                font-size: 25px;
+                padding: 10px;
+            }
+            p{
+                font-size: 20px;
+                color: rgba(0, 0, 0, 0.459);
+                margin-left: -10px;
+            }
+        }
+        .button2{
+            display: flex;
+            padding: 10px;
+            button{
+                background-color: red;
+                color: white;
+                border: none;
+                padding: 10px;
+                border-radius: 20px;
+                width: 100px;
+                font-size: 15px;
+            }
+            .button3{
+                button{
+                    margin-left: 10px;
+                    font-size: 15px;
+                }
+            }
+            button:hover{
+                color: black;
+            }
+        }
+    }
+}
+.footer{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    p{
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        padding-left: 30px;
+        padding-top: 30px;
+        color: white;
+    }
+    a:hover{
+        color: black;
+    }
+}
